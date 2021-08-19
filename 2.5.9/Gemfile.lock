@@ -4,7 +4,7 @@ GEM
     ast (2.4.2)
     backport (1.2.0)
     benchmark (0.1.1)
-    debase (0.2.4.1)
+    debase (0.2.2)
       debase-ruby_core_source (>= 0.10.2)
     debase-ruby_core_source (0.10.12)
     diff-lcs (1.4.4)
@@ -64,13 +64,13 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  debase
+  debase (~> 0.2.2.0)
   rubocop
   ruby-debug-ide
   solargraph
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 2.5.9p229
 
 BUNDLED WITH
-   2.2.15
+   2.2.25

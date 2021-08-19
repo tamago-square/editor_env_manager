@@ -1,7 +1,7 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-ruby '2.7.2'
+ruby '2.5.9'
 
 # code checker
 gem 'rubocop'
@@ -11,4 +11,4 @@ gem 'solargraph'
 
 # debug
 gem 'ruby-debug-ide'
-gem 'debase'
+gem 'debase', '~> 0.2.2.0'
