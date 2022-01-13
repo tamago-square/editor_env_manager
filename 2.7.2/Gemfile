@@ -10,5 +10,7 @@ gem 'rubocop'
 gem 'solargraph'
 
 # debug
-gem 'ruby-debug-ide'
-gem 'debase'
+gem 'debug'
+
+# documentation
+gem 'yard'

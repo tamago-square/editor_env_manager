@@ -3,5 +3,14 @@ source 'https://rubygems.org'
 
 ruby '2.6.3'
 
+# code checker
 gem 'rubocop'
+
+# intellisense
 gem 'solargraph'
+
+# debug
+gem 'debug'
+
+# documentation
+gem 'yard'

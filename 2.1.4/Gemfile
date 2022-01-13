@@ -7,3 +7,4 @@ gem 'rubocop', '0.57' # 2.1 系に対応しているラストバージョン
 gem 'solargraph'
   gem 'nokogiri', '1.9.1' # これ以上は ruby >=2.3.0 に引っかかって死亡
   gem 'parallel', '1.13.0' # これ以上は ruby >= 2.2 に引っかかって死亡
+gem 'yard'

@@ -12,3 +12,6 @@ gem 'solargraph'
 # debug
 gem 'ruby-debug-ide'
 gem 'debase', '~> 0.2.2.0'
+
+# documentation
+gem 'yard'
