@@ -1,0 +1,16 @@
+# A sample Gemfile
+source 'https://rubygems.org'
+
+ruby '2.6.9'
+
+# code checker
+gem 'rubocop'
+
+# intellisense
+gem 'solargraph'
+
+# debug
+gem 'debug'
+
+# documentation
+gem 'yard'
