@@ -5,6 +5,12 @@ ruby '2.6.9'
 
 # code checker
 gem 'rubocop'
+gem "rubocop-rails"
+gem "rubocop-rake"
+gem "rubocop-rspec"
+gem "rubocop-performance"
+gem "haml_lint"
+gem "standard"
 
 # intellisense
 gem 'solargraph'
