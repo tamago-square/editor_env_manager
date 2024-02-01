@@ -1,0 +1,23 @@
+# A sample Gemfile
+source 'https://rubygems.org'
+
+ruby '2.5.1'
+
+# code checker
+gem 'rubocop'
+gem "rubocop-rails"
+gem "rubocop-rake"
+gem "rubocop-rspec"
+gem "rubocop-performance"
+gem "haml_lint"
+gem "standard"
+
+# intellisense
+gem 'solargraph'
+
+# debug
+gem 'ruby-debug-ide'
+gem 'debase', '~> 0.2.2.0'
+
+# documentation
+gem 'yard'
