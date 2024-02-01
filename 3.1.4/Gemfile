@@ -1,0 +1,25 @@
+# A sample Gemfile
+source 'https://rubygems.org'
+
+ruby '3.1.4'
+
+# code checker
+gem 'rubocop'
+gem "rubocop-rails"
+gem "rubocop-rake"
+gem "rubocop-rspec"
+gem "rubocop-performance"
+gem "haml_lint"
+gem "standard"
+
+# intellisense
+gem 'solargraph'
+
+# debug
+gem 'debug'
+
+# https://github.com/ddollar/foreman
+gem 'foreman'
+
+# documentation
+gem 'yard'
