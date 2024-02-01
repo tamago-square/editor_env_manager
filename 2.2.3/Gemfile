@@ -3,8 +3,16 @@ source 'https://rubygems.org'
 
 ruby '2.2.3'
 
+# code checker
 gem 'rubocop', '0.68' # 2.2 系に対応しているラストバージョン
+
+# intellisense
 gem 'solargraph'
   gem 'nokogiri', '1.9.1' # 1.10 系を拾おうとすると ruby >=2.3.0 に引っかかって死亡
   gem 'parallel', '1.19.2' # 1.20 系を拾おうとすると ruby >= 2.4 に引っかかって死亡
+
+# documentation
 gem 'yard'
+
+# vulnerability checker
+gem 'bundler-audit'
